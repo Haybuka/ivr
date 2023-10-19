@@ -36,10 +36,10 @@ const HomeServices = () => {
       <h4 className="text-2xl font-semibold bg-white py-3 px-4 text-center my-4">
         Our services
       </h4>
-      <aside className="grid grid-cols-12 justify-between items-center flex-wrap gap-4">
+      <aside className="grid grid-cols-12 justify-between  items-center flex-wrap gap-4">
         {overview.map((view) => (
           <div key={view.id} className={cls(styles.overview)}>
-            <p className="text-4xl font-semibold absolute top-0 left-0 text-orange-600">
+            <p className="text-4xl font-semibold absolute top-2 left-2 text-orange-600">
               0{view.id}
             </p>
             <h4 className="text-white z-10 text-xl">{view.title}</h4>

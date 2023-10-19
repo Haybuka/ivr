@@ -26,7 +26,7 @@ const Mobile = () => {
     <section className="absolute bg-white w-full text-center h-screen left-0 px-4 overflow-hidden">
       <ul className="block md:flex items-center font-titilium ">
         {navigation.map((item, id) => (
-          <NavLink key={id} className={'mx-4'}>
+          <NavLink key={id} to={item.path} className={'mx-4'}>
             <li className="capitalize">{item.name}</li>
           </NavLink>
         ))}

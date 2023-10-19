@@ -6,7 +6,7 @@ const Quote = () => {
     {
       title: 'email',
       src: '../../../assets/contact/mail.png',
-      value: 'BricksBrim@gmail.com',
+      value: 'ivrpowerworks@gmail.com',
     },
     {
       title: 'Phone',

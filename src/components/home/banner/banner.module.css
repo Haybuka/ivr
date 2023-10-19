@@ -2,7 +2,7 @@
   @apply bg-black rounded-md w-10 md:w-36 h-1 md:h-2 md:inline-block mr-4;
 }
 .banner {
-  @apply lg:h-[600px] lg:flex items-center py-5 justify-between gap-2 lg:px-16 md:flex-row-reverse  md:my-32;
+  @apply lg:h-[600px] lg:flex items-center justify-between gap-2 lg:px-16 md:flex-row-reverse  md:my-32;
 }
 .banner_grid {
   @apply lg:grid grid-cols-12 gap-3 h-full w-full py-4 px-0;

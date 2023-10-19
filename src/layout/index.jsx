@@ -16,7 +16,7 @@ const NavBar = () => {
       <header className="py-6 px-4 md:px-16 shadow-md fixed top-0 w-full bg-white z-40 text-lg">
         <nav className="md:flex justify-between items-center">
           <h3 className="text-orange-600 font-bold text-2xl lg:text-3xl font-odor flex justify-between items-center">
-            <span>IVR</span>
+            <span>IPW</span>
             <Burger toggle={handleToggle} />
           </h3>
           <Desktop />

@@ -15,7 +15,6 @@ const Home = () => {
         <Mileage />
       </section>
       <Rating />
-      {/* <DisclosureSection /> */}
     </main>
   );
 };

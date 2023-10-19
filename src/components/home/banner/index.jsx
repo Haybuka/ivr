@@ -14,9 +14,16 @@ const Banner = () => {
       <aside className={styles.mobile}></aside>
       <article className="py-6 px-4 md:px-[30px] lg:mr-[80px] font-titilium">
         <h2 className="uppercase font-semibold text-4xl md:text-5xl lg:text-6xl ">
-          <p>ivr</p>
-          <p className="flex items-center">power</p>
-          <p>works</p>
+          <p>
+            <span className="text-orange-600 font-bold">I</span>
+            vr
+          </p>
+          <p className="flex items-center">
+            <span className="text-orange-600 font-bold">P</span>ower
+          </p>
+          <p>
+            <span className="text-orange-600 font-bold">W</span>orks
+          </p>
         </h2>
         <p className="w-auto lg:w-[380px] my-4">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis nemo

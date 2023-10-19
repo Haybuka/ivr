@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import NavBar from './layout/navbar';
+
 import Home from './pages';
+import NavBar from './layout';
 
 function App() {
   return (

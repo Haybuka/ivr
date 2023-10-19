@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom';
 
 import Home from './pages';
 import NavBar from './layout';
+import Contact from './pages/contact';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route element={<NavBar />}>
           <Route index element={<Home />} />
+          <Route path='contact' element={<Contact />} />
         </Route>
       </Routes>
     </>

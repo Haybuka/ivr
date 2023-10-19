@@ -1,9 +1,9 @@
 import React from 'react';
-import Banner from '../components/banner';
-import Mileage from '../components/mileage';
-import HomeServices from '../components/homeServices';
-import Outstanding from '../components/oustanding';
-import Rating from '../components/rating';
+import Banner from '../components/home/banner';
+import Mileage from '../components/home/mileage';
+import HomeServices from '../components/home/homeServices';
+import Outstanding from '../components/home/oustanding';
+import Rating from '../components/home/rating';
 
 const Home = () => {
   return (

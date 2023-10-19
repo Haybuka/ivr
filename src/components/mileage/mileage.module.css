@@ -1,5 +1,5 @@
 .mileage {
-  @apply lg:h-[600px] bg-white lg:flex justify-between items-center p-2 md:p-0 my-6 lg:my-0 lg:px-[90px];
+  @apply lg:h-[600px] bg-white lg:flex justify-between items-center p-2 md:p-0 my-10 md:my-32 lg:px-[90px];
 
   /* background: radial-gradient(circle, #7b7a86 10%, transparent 11%),
     radial-gradient(circle at bottom left, #7b7a86 5%, transparent 6%),

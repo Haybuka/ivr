@@ -1,5 +1,5 @@
 .outstanding {
-  @apply md:flex justify-center relative my-10;
+  @apply md:flex justify-center relative my-10 md:my-32;
   background-image: url('../../assets/home/images/ornament.svg'),
     url('../../assets/home/images/ornament.svg');
   background-position: bottom right, top left;

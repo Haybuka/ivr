@@ -25,7 +25,7 @@ const HomeServices = () => {
   ];
 
   return (
-    <section>
+    <section className="my-10 md:my-32">
       <h4 className="text-2xl font-semibold bg-white py-3 px-4 text-center my-4">
         Our services
       </h4>

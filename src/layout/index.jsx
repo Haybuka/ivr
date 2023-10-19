@@ -1,29 +1,9 @@
 import React, { useState } from 'react';
-import { Outlet, NavLink } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import Footer from '../components/footer';
-import Button from '../components/button/button';
 import Burger from './burger';
 import Desktop from './desktop';
 import Mobile from './mobile';
-
-const navigation = [
-  {
-    name: 'home',
-    path: '/',
-  },
-  {
-    name: 'About',
-    path: '/About',
-  },
-  {
-    name: 'services',
-    path: '/services',
-  },
-  {
-    name: 'contact',
-    path: '/contact',
-  },
-];
 
 const NavBar = () => {
   const [toggle, setToggle] = useState(false);

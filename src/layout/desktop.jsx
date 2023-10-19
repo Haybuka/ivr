@@ -1,7 +1,6 @@
 import React from 'react';
-import { Outlet, NavLink } from 'react-router-dom';
-import Footer from '../components/footer';
-import Button from '../components/button/button';
+import { NavLink } from 'react-router-dom';
+import Button from '../components/button';
 
 const navigation = [
   {

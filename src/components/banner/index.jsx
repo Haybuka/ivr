@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './banner.module.css';
 import cls from 'classnames';
-import Button from '../button/button';
+import Button from '../button';
 
 const Banner = () => {
   return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import Banner from '../components/banner';
 import Mileage from '../components/mileage';
-import DisclosureSection from '../components/disclosureSection';
 import HomeServices from '../components/homeServices';
 import Outstanding from '../components/oustanding';
+import Rating from '../components/rating';
 
 const Home = () => {
   return (
@@ -14,6 +14,7 @@ const Home = () => {
         <HomeServices />
         <Mileage />
       </section>
+      <Rating />
       {/* <DisclosureSection /> */}
     </main>
   );

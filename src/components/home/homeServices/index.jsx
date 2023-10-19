@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import cls from 'classnames';
+import styles from './sevices.module.css';
 
 const HomeServices = () => {
   const overview = [
@@ -16,13 +18,13 @@ const HomeServices = () => {
       id: 2,
     },
     {
-      title: 'Automation Systems: ',
+      title: 'Automation Systems',
       description:
         'We specialize in designing and installing advanced automation systems for residential and commercial properties. Our solutions include smart lighting, home automation, security systems, access control, energy management, and more. We integrate cutting-edge technology to enhance comfort, convenience, and energy efficiency',
       id: 3,
     },
     {
-      title: 'Data and Networking Solutions:',
+      title: 'Data and Networking Solutions',
       description:
         'We offer comprehensive data and networking solutions to meet the increasing demands of the digital age. Our services include structured cabling, network design and installation, wireless network setup, data center infrastructure, and IT equipment installation. We ensure reliable connectivity and seamless data transmission for your business ne ',
       id: 4,
@@ -36,14 +38,11 @@ const HomeServices = () => {
       </h4>
       <aside className="grid grid-cols-12 justify-between items-center flex-wrap gap-4">
         {overview.map((view) => (
-          <div
-            key={view.id}
-            className="col-span-12 before:absolute before:content-[''] before:w-full before:h-full before:bg-black before:opacity-30 before:rounded-md relative font-titilium text-lg md:col-span-6 flex justify-center items-center lg:col-span-3 md:w-full w-full h-[250px] text-white shadow-md rounded-md"
-          >
+          <div key={view.id} className={cls(styles.overview)}>
             <p className="text-4xl font-semibold absolute top-0 left-0 text-orange-600">
               0{view.id}
             </p>
-            {view.title}
+            <h4 className="text-white z-10 text-xl">{view.title}</h4>
           </div>
         ))}
       </aside>

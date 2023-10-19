@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './banner.module.css';
 import cls from 'classnames';
+import Button from '../button/button';
 
 const Banner = () => {
   return (
@@ -11,8 +12,8 @@ const Banner = () => {
         <div className={cls(styles.grid_three)}></div>
       </aside>
       <aside className={styles.mobile}></aside>
-      <article className="py-6 px-4 md:px-[30px] lg:mr-[80px] ">
-        <h2 className="uppercase font-semibold text-4xl md:text-5xl lg:text-6xl">
+      <article className="py-6 px-4 md:px-[30px] lg:mr-[80px] font-titilium">
+        <h2 className="uppercase font-semibold text-4xl md:text-5xl lg:text-6xl ">
           <p>ivr</p>
           <p className="flex items-center">power</p>
           <p>works</p>
@@ -22,7 +23,7 @@ const Banner = () => {
           explicabo minima minus autem perspiciatis quo saepe consequatur
           aperiam sunt.
         </p>
-        {/* <Button text="Get Quote" propStyle="inline-block" href="contact" /> */}
+        <Button text="Get in Touch" propStyle="inline-block my-3" />
       </article>
     </section>
   );

@@ -1,7 +1,7 @@
 import cls from 'classnames';
 import styles from './button.module.css';
 
-const Button = ({ text, propStyle, href, handleClick }) => {
+const Button = ({ text, propStyle, handleClick }) => {
   return (
     <button
       onClick={handleClick}

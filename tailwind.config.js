@@ -4,7 +4,12 @@ module.exports = {
     // 'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        titilium: ['Titillium Web', 'sans-serif'],
+        odor: ['Odor Mean Chey', 'serif'],
+      },
+    },
   },
   plugins: [
 

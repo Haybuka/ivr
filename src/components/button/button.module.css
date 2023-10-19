@@ -1,5 +1,5 @@
 .btn {
-  @apply py-2 px-4 my-4 rounded-full;
+  @apply py-2 px-4 rounded-full font-titilium;
 }
 
 .btn_default {
@@ -7,5 +7,5 @@
 }
 
 .btn_bricks {
-  @apply bg-orange-700 text-white;
+  @apply bg-orange-600 text-white;
 }

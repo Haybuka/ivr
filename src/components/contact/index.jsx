@@ -4,7 +4,7 @@ import Quote from './quote/quote';
 
 const Index = () => {
   return (
-    <main className="mt-20 px-4 md:px-0">
+    <main className="mt-20 md:px-0">
       <Banner />
       <Quote />
     </main>

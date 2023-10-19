@@ -21,7 +21,7 @@ const Quote = () => {
   ];
 
   return (
-    <section className="my-14 lg:flex md:px-[50px] lg:px-[110px] justify-center">
+    <section className="my-14 px-4 lg:flex md:px-[50px] lg:px-[110px] justify-center">
       <Aside contactDetails={contactDeets} />
       <Form />
     </section>

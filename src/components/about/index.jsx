@@ -7,6 +7,8 @@ import imageTwo from '../../assets/services/services_3.jpg';
 import imageThree from '../../assets/services/services_2.jpg';
 import imageFour from '../../assets/services/services_1.jpg';
 
+import styles from './about.module.css';
+
 const about = [
   {
     id: 1,
@@ -50,14 +52,15 @@ const Index = () => {
   return (
     <main className="mt-20 md:px-0">
       <Banner />
-      <section>
-        <h4 className="text-3xl font-semibold bg-white  lg:px-4 font-titilium text-center my-10 md:my-20">
+      <section className={styles.about}>
+        <h4 className="text-3xl font-semibold   lg:px-4 font-titilium text-center my-10 md:my-20">
           Why Choose Us ?
         </h4>
+
+        {about.map((item) => (
+          <Card data={item} />
+        ))}
       </section>
-      {about.map((item) => (
-        <Card data={item} />
-      ))}
     </main>
   );
 };

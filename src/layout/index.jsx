@@ -26,7 +26,9 @@ const NavBar = () => {
           {toggle && <Mobile toggle={handleToggle} />}
         </nav>
       </header>
-      <Outlet />
+      <div className="bg-white">
+        <Outlet />
+      </div>
       <Footer />
     </>
   );

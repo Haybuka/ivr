@@ -38,10 +38,16 @@ const Rating = () => {
               key={id}
               className="text-center lg:text-left lg:order-l-2 border-l-white lg:pl-10 md:w-auto col-span-12 md:col-span-6 py-10 lg:py-0 lg:col-span-3 capitalize text-white"
             >
-              <h5 className="text-2xl font-semibold">{rate.rating}</h5>
+              <h5 className="text-2xl font-semibold font-titilium">
+                {rate.rating}
+              </h5>
               <p>
-                <span className="block tracking-widest">{rate.title}</span>
-                <span className="block tracking-widest">{rate.text}</span>
+                <span className="block font-odor tracking-widest">
+                  {rate.title}
+                </span>
+                <span className="block tracking-widest font-odor">
+                  {rate.text}
+                </span>
               </p>
             </article>
           ))}

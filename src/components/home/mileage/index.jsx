@@ -7,7 +7,7 @@ const Mileage = () => {
       <aside className={styles.mileage_bg}></aside>
       <article className=" lg:w-[600px] my-10 lg:my-0 lg:px-0 lg:mx-3">
         <section className="">
-          <h4 className="text-2xl font-semibold bg-white py-3 lg:px-4">
+          <h4 className="text-2xl font-semibold bg-white py-3 lg:px-4 font-titilium">
             What makes us different from others
           </h4>
           <div className=" py-3 bg-white lg:px-4">

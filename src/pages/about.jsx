@@ -1,7 +1,8 @@
 import React from 'react';
+import Index from '../components/about/index';
 
 const About = () => {
-  return <div>About</div>;
+  return <Index />;
 };
 
 export default About;

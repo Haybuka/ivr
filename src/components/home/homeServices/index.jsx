@@ -33,7 +33,7 @@ const HomeServices = () => {
 
   return (
     <section className="my-10 md:my-32">
-      <h4 className="text-2xl font-semibold bg-white py-3 px-4 text-center my-4">
+      <h4 className="text-2xl font-semibold bg-white py-3 px-4 text-center my-4 font-titilium">
         Our services
       </h4>
       <aside className="grid grid-cols-12 justify-between  items-center flex-wrap gap-4">

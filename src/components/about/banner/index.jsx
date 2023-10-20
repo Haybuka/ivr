@@ -1,11 +1,11 @@
 import React from 'react';
 import styles from './banner.module.css';
 import cls from 'classnames';
-const Banner = () => {
+const Banner = ({ text = 'About Us' }) => {
   return (
     <section className={cls(styles.banner)}>
       <h3 className="text-xl  md:text-3xl uppercase text-white md:ml-6 tracking-widest font-titilium">
-        Contact Us
+        {text}
       </h3>
     </section>
   );

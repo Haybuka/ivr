@@ -1,5 +1,6 @@
 import React from 'react';
 import Banner from './banner';
+// import Card from '../card';
 
 const Index = () => {
   return (
@@ -10,7 +11,7 @@ const Index = () => {
           Why Choose Us ?
         </h4>
       </section>
-      <section className="flex flex-col-reverse md:flex-row justify-center items-center my-10 md:my-32">
+      <section className="flex flex-col-reverse md:flex-row justify-center px-4 md:px-0 items-center my-10 md:my-32">
         <aside className="w-full my-4 md:w-[500px] ">
           <h4 className="text-2xl font-semibold bg-white lg:px-4 font-titilium">
             Expertise and Experience

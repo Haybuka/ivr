@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './banner.module.css';
 import cls from 'classnames';
 import Button from '../../button';
+import { Link, useLocation } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -30,7 +31,12 @@ const Banner = () => {
           explicabo minima minus autem perspiciatis quo saepe consequatur
           aperiam sunt.
         </p>
-        <Button text="Get in Touch" propStyle="inline-block my-3" />
+        <Link to={'/contact'}>
+          <Button
+            text="Get in Touch"
+            propStyle="inline-block my-3 px-6 bg-red-400"
+          />
+        </Link>
       </article>
     </section>
   );

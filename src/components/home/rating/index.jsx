@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Button from '../../button';
 import styles from './rating.module.css';
 
@@ -10,8 +11,8 @@ const ratings = [
 
 const Rating = () => {
   return (
-    <section className="md:my-32 my-10">
-      <aside className="flex flex-col md:mt-3 lg:px-4 py-3 relative lg:before:absolute before:bottom-0 before:bg-orange-600 before:h-1/2 before:w-full before:left-0 before:content-[''] before:-z-10">
+    <section className="md:my-32 my-0">
+      <aside className="flex flex-col md:mt-3 lg:px-4 relative lg:before:absolute before:bottom-0 before:bg-orange-600 before:h-1/2 before:w-full before:left-0 before:content-[''] before:-z-10">
         <aside className={styles.float}>
           <div className="w-full lg:w-[420px] my-10 md:my-0 md:pt-28 px-4">
             <h3 className="text-xl capitalize  font-normal font-odor">
@@ -26,8 +27,12 @@ const Rating = () => {
               aliquid exercitationem!
             </p>
             <div className="flex gap-4 ">
-              <Button text={'Call now'} />
-              <Button text={'Get Quote'} />
+              <Link to={'/contact'}>
+                <Button text={'Call now'} />
+              </Link>
+              <Link to={'/contact'}>
+                <Button text={'Get Quote'} />
+              </Link>
             </div>
           </div>
           <div className={styles.div}></div>

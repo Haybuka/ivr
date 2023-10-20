@@ -12,7 +12,7 @@ const Card = ({ data: { id, title, text_one, text_two, imageSrc } }) => {
       )}
     >
       <aside className="w-full my-4 md:w-[500px] ">
-        <h4 className="text-2xl font-semibold bg-white lg:px-4 font-titilium">
+        <h4 className="text-2xl font-semibold bg-white lg:px-4 font-titilium ">
           {title}
         </h4>
         <div className=" bg-white lg:px-4">

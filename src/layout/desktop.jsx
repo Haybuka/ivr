@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Button from '../components/button';
 
 const navigation = [
@@ -24,7 +24,7 @@ const navigation = [
 const Desktop = () => {
   return (
     <>
-      <ul className="hidden md:flex items-center font-titilium ">
+      <ul className="hidden lg:flex items-center font-titilium ">
         {navigation.map((item, id) => (
           <NavLink
             key={id}
@@ -37,7 +37,12 @@ const Desktop = () => {
           </NavLink>
         ))}
       </ul>
-      <Button text={'Get Appointment'} propStyle={'hidden md:inline-block'} />
+      <Link to={'/contact'}>
+        <Button
+          text={'Book an Appointment'}
+          propStyle={'hidden md:inline-block'}
+        />
+      </Link>
     </>
   );
 };

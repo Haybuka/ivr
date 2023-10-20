@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Button from '../components/button';
 
 const navigation = [
@@ -24,7 +24,7 @@ const navigation = [
 const Mobile = ({ toggle }) => {
   return (
     <section className="absolute bg-white w-full text-center h-screen left-0 px-4 overflow-hidden">
-      <ul className="block md:flex items-center font-titilium ">
+      <ul className="block lg:flex items-center font-titilium ">
         {navigation.map((item, id) => (
           <NavLink
             key={id}
@@ -38,7 +38,9 @@ const Mobile = ({ toggle }) => {
           </NavLink>
         ))}
       </ul>
-      <Button text={'Get Appointment'} />
+      <Link to={'/contact'}>
+        <Button text={'Book an Appointment'} />
+      </Link>
     </section>
   );
 };

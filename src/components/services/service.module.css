@@ -1,0 +1,7 @@
+.services {
+  background-image: url('../../assets/decoration.svg'),
+    url('../../assets/home/ornament.svg');
+  background-position: bottom left, top right;
+  background-repeat: no-repeat;
+  background-size: 30%, 5%;
+}

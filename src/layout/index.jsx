@@ -11,6 +11,7 @@ const NavBar = () => {
   const handleToggle = () => {
     setToggle((prev) => !prev);
   };
+
   return (
     <>
       <header className="py-6 px-4 md:px-16 shadow-md fixed top-0 w-full bg-white z-40 text-lg">
@@ -22,7 +23,7 @@ const NavBar = () => {
             <Burger toggle={handleToggle} />
           </h3>
           <Desktop />
-          {toggle && <Mobile />}
+          {toggle && <Mobile toggle={handleToggle} />}
         </nav>
       </header>
       <Outlet />

@@ -9,11 +9,7 @@ import Services from './pages/services';
 import NavBar from './layout'
 import About from './pages/about';
 
-// const Home = lazy(() => import("./pages"));
-// const NavBar = lazy(() => import("./layout"));
-// const Contact = lazy(() => import("./pages/contact"));
-// const Services = lazy(() => import("./pages/services"));
-// const About = lazy(() => import("./pages/about"));
+
 
 function App() {
   return (

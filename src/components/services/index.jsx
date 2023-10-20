@@ -2,7 +2,7 @@ import imageOne from '../../assets/services/services_1.jpg';
 import imageTwo from '../../assets/services/services_2.jpg';
 import imageThree from '../../assets/services/services_3.jpg';
 import imageFour from '../../assets/services/services_4.jpg';
-import Card from '../card/card';
+import Card from '../card';
 
 const Index = () => {
   const services = [
@@ -47,7 +47,7 @@ const Index = () => {
   return (
     <>
       {services.map((service) => (
-        <Card service={service} />
+        <Card data={service} />
       ))}
     </>
   );

@@ -26,7 +26,13 @@ const Desktop = () => {
     <>
       <ul className="hidden md:flex items-center font-titilium ">
         {navigation.map((item, id) => (
-          <NavLink key={id} to={item.path} className={'mx-4'}>
+          <NavLink
+            key={id}
+            to={item.path}
+            className={({ isActive }) =>
+              isActive ? 'mx-4 text-orange-600' : 'mx-4'
+            }
+          >
             <li className="capitalize">{item.name}</li>
           </NavLink>
         ))}

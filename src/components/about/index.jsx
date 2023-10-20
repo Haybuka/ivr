@@ -1,6 +1,50 @@
 import React from 'react';
 import Banner from './banner';
-// import Card from '../card';
+import Card from '../card';
+
+import imageOne from '../../assets/services/services_4.jpg';
+import imageTwo from '../../assets/services/services_3.jpg';
+import imageThree from '../../assets/services/services_2.jpg';
+import imageFour from '../../assets/services/services_1.jpg';
+
+const about = [
+  {
+    id: 1,
+    title: 'Expertise and Experience',
+    text_one:
+      'With years of experience in the industry, our team has the knowledge and skills to handle projects of any scale or complexity. ',
+    text_two:
+      ' We stay up-to-date with the latest technological advancements to deliver innovative solutions tailored to our clients specific requirements.',
+    imageSrc: imageOne,
+  },
+  {
+    id: 2,
+    title: 'Electrical Maintenance',
+    text_one:
+      'Our team of experts provides regular maintenance and inspection services to ensure that your electrical systems are functioning optimally and comply with safety standards. ',
+    text_two:
+      ' We offer preventive maintenance, troubleshooting, and repairs to minimize downtime and extend the lifespan of your electrical equipme ',
+    imageSrc: imageTwo,
+  },
+  {
+    id: 3,
+    title: 'Automation Systems',
+    text_one:
+      'We specialize in designing and installing advanced automation systems for residential and commercial properties. ',
+    text_two:
+      ' Our solutions include smart lighting, home automation, security systems, access control, energy management, and more. We integrate cutting-edge technology to enhance comfort, convenience, and energy efficiency',
+    imageSrc: imageThree,
+  },
+  {
+    id: 4,
+    title: 'Data and Networking Solutions',
+    text_one:
+      'We offer comprehensive data and networking solutions to meet the increasing demands of the digital age.  ',
+    text_two:
+      'Our services include structured cabling, network design and installation, wireless network setup, data center infrastructure, and IT equipment installation. We ensure reliable connectivity and seamless data transmission for your business n ',
+    imageSrc: imageFour,
+  },
+];
 
 const Index = () => {
   return (
@@ -11,26 +55,9 @@ const Index = () => {
           Why Choose Us ?
         </h4>
       </section>
-      <section className="flex flex-col-reverse md:flex-row justify-center px-4 md:px-0 items-center my-10 md:my-32">
-        <aside className="w-full my-4 md:w-[500px] ">
-          <h4 className="text-2xl font-semibold bg-white lg:px-4 font-titilium">
-            Expertise and Experience
-          </h4>
-          <div className=" bg-white lg:px-4">
-            <p className="my-3">
-              With years of experience in the industry, our team has the
-              knowledge and skills to handle projects of any scale or
-              complexity.
-            </p>
-            <p className="my-3">
-              We stay up-to-date with the latest technological advancements to
-              deliver innovative solutions tailored to our clients' specific
-              requirements
-            </p>
-          </div>
-        </aside>
-        <aside className="h-[400px] w-full md:w-[600px] bg-black"></aside>
-      </section>
+      {about.map((item) => (
+        <Card data={item} />
+      ))}
     </main>
   );
 };

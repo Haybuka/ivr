@@ -1,7 +1,7 @@
 import React from 'react';
 import cls from 'classnames';
 
-const Card = ({ service: { id, title, text_one, text_two, imageSrc } }) => {
+const Card = ({ data: { id, title, text_one, text_two, imageSrc } }) => {
   return (
     <section
       className={cls(

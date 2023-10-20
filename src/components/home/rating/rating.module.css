@@ -1,7 +1,7 @@
 .float {
   @apply md:flex bg-white relative w-full lg:w-[800px] rounded-br-md;
-  background-image: url('../../../assets/home/images/ornament.svg'),
-    url('../../../assets/home/images/ornament.svg');
+  background-image: url('../../../assets/home/ornament.svg'),
+    url('../../../assets/home/ornament.svg');
   background-position: center bottom, top left;
   background-repeat: no-repeat;
   background-size: 5%;
@@ -9,7 +9,7 @@
 
 .div {
   @apply w-full hidden lg:block md:w-[400px] h-[400px] bg-black rounded-md;
-  background-image: url('../../../assets/home/images/manWire.jpg');
+  background-image: url('../../../assets/home/manWire.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

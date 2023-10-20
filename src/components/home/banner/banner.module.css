@@ -10,7 +10,7 @@
 
 .grid_one {
   @apply h-full md:h-auto col-span-6 bg-gray-100 row-span-2 lg:rounded-lg;
-  background-image: url('../../../assets/home/images/grid_one.jpg');
+  background-image: url('../../../assets/home/grid_one.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,7 +18,7 @@
 
 .grid_two {
   @apply h-[280px] w-full md:h-auto col-span-6 bg-gray-100 lg:rounded-lg;
-  background-image: url('../../../assets/home/images/grid_two.jpg');
+  background-image: url('../../../assets/home/grid_two.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -26,7 +26,7 @@
 
 .grid_three {
   @apply h-[280px] w-full md:h-auto col-span-6 bg-gray-100 lg:rounded-lg;
-  background-image: url('../../../assets/home/images/multimeter.jpg');
+  background-image: url('../../../assets/home/multimeter.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -34,7 +34,7 @@
 
 .mobile {
   @apply block lg:hidden h-[360px] bg-gray-200 my-4 lg:rounded-lg;
-  background-image: url('../../../assets/home/images/banner.jpg');
+  background-image: url('../../../assets/home/banner.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

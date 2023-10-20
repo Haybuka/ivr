@@ -1,7 +1,7 @@
 .outstanding {
   @apply md:flex justify-center relative my-10 md:my-32;
-  background-image: url('../../../assets/home/images/ornament.svg'),
-    url('../../../assets/home/images/ornament.svg');
+  background-image: url('../../../assets/home/ornament.svg'),
+    url('../../../assets/home/ornament.svg');
   background-position: bottom right, top left;
   background-repeat: no-repeat;
   background-size: 5%;
@@ -9,7 +9,7 @@
 
 .div {
   @apply w-full md:w-[400px] h-[400px] bg-black rounded-md;
-  background-image: url('../../../assets/home/images/manWiring.jpg');
+  background-image: url('../../../assets/home/manWiring.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
